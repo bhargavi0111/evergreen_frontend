@@ -1,0 +1,154 @@
+/* 
+:root {
+    --primary-bg: #ffffff;
+    --primary-text: #171717;
+    --secondary-bg: #f3f3f3;
+    --secondary-text: #626262;
+    --accent-color: #ff4141;
+  }
+
+
+  
+  :root [data-theme='earthy'] {
+    --background-color: #d0b89c;
+    --text-color: #4a3f2a;
+    --accent-color: #6b8e23;
+  }
+  
+  :root  [data-theme='pastel'] {
+    --background-color: #f7f7f7;
+    --text-color: #333;
+    --accent-color: #ff8c94;
+  }
+  
+  :root  [data-theme='vintage'] {
+    --background-color: #f5f5dc;
+    --text-color: #333;
+    --accent-color: #b7410e;
+  }
+  
+  :root  [data-theme='modern'] {
+    --background-color: #f0f0f0;
+    --text-color: #333;
+    --accent-color: #008080;
+  }
+  
+  :root [data-theme='nature'] {
+    --background-color: #e2f0d9;
+    --text-color: #3b6b3f;
+    --accent-color: #7a9a5a;
+  } */
+
+  /* Default Variables (Light Theme) */
+/* Default Variables (Light Theme) */
+
+/* Apply a basic CSS reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+/* Ensure the body and html take up full height */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #007bff;
+    --secondary-bg: #f3f3f3;
+    --secondary-text: #626262;
+  }
+  
+  /* Earthy Theme */
+  [data-theme='earthy'] {
+    --background-color: #d0b89c;
+    --text-color: #4a3f2a;
+    --accent-color: #6b8e23;
+    --secondary-bg: #bfa98f; /* Adjusted for earthy tone */
+    --secondary-text: #6e5a4a;
+  }
+  
+  /* Pastel Theme */
+  [data-theme='pastel'] {
+    --background-color: #f7f7f7;
+    --text-color: #333333;
+    --accent-color: #ff8c94;
+    --secondary-bg: #eaeaea; /* Lighter pastel for secondary background */
+    --secondary-text: #999999;
+  }
+  
+  /* Vintage Theme */
+  [data-theme='vintage'] {
+    --background-color: #f5f5dc;
+    --text-color: #333333;
+    --accent-color: #b7410e;
+    --secondary-bg: #d9d6c3; /* Vintage style secondary background */
+    --secondary-text: #6d4c41;
+  }
+  
+  /* Modern Theme */
+  [data-theme='modern'] {
+    --background-color: #f0f0f0;
+    --text-color: #333333;
+    --accent-color: #008080;
+    --secondary-bg: #e0e0e0; /* Neutral modern secondary background */
+    --secondary-text: #6e6e6e;
+  }
+  
+  /* Nature-Inspired Theme */
+  [data-theme='nature'] {
+    --background-color: #e2f0d9;
+    --text-color: #3b6b3f;
+    --accent-color: #7a9a5a;
+    --secondary-bg: #d0e3b8; /* Nature-inspired secondary background */
+    --secondary-text: #5a6a44;
+  }
+  
+  
+  
+  /* :root[data-theme='dark'] {
+    --primary-bg: #1e1e1e;
+    --primary-text: #f0f0f0;
+    --secondary-bg: #333;
+    --secondary-text: #aaaaaa;
+    --accent-color: #ff5757;
+  }
+  
+  :root[data-theme='nature'] {
+    --primary-bg: #f0fff0;
+    --primary-text: #2d402d;
+    --secondary-bg: #f5faf5;
+    --secondary-text: #4d574d;
+    --accent-color: #59b256;
+  } */
+  
+  /* Apply variables */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .navbar {
+    background-color: var(--secondary-bg);
+    color: var(--secondary-text);
+  }
+  
+  .button {
+    background-color: var(--accent-color);
+    color: #fff;
+  }
+  
+  /* You can continue adding other styles using these CSS variables */
+  

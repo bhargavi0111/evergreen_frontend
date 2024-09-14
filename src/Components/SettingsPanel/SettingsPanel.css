@@ -1,0 +1,214 @@
+/* components/SettingsIcon.css
+.settings-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001; 
+  }
+  
+  .settings-icon {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .settings-panel {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
+  .settings-panel label {
+    display: flex;
+    align-items: center;
+  }
+   */
+
+   /* components/SettingsIcon.css */
+/* components/SettingsPanel.css */
+
+/* Panel container */
+/* 
+.settings-panel {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    width: 220px;
+  }
+  
+  .settings-panel h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .theme-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .theme-options button {
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .theme-options button:hover {
+    background-color: #ddd;
+    border-color: #aaa;
+  }
+  
+  .theme-options button.active {
+    background-color: var(--accent-color, #007bff); 
+    color: #fff;
+    border-color: var(--accent-color, #007bff);
+  }
+  
+  .settings-panel button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .settings-panel button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .settings-panel {
+      bottom: 60px;
+      right: 10px;
+      width: 180px;
+    }
+  }
+   */
+
+   /* components/SettingsPanel.css */
+.settings-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001;
+  }
+  
+  .settings-icon {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .settings-panel {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    width: 220px;
+  }
+  
+  /* Theme options */
+  .theme-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+/* Base Styles for Theme Buttons */
+.theme-options button {
+    padding: 10px 20px;
+    border: 2px solid transparent; /* Default border to make sure active border stands out */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Active Button Styling */
+  /* .theme-options button.active {
+    border: 2px solid var(--accent-color); 
+    background-color: var(--accent-color); 
+    color: #fff; 
+  } */
+  
+  /* Individual Theme Button Styles */
+  .theme-options button.light {
+    background-color: #f0f0f0; /* Light theme button color */
+    color: #000; /* Dark text color for contrast */
+    border: 2px solid #007bff; 
+
+    
+
+  }
+  
+  .theme-options button.earthy {
+    background-color: #d0b89c; /* Earthy theme button color */
+    color: #4a3f2a; /* Dark text color for contrast */
+    border: 2px solid  #6b8e23; 
+  }
+  
+  .theme-options button.pastel {
+    background-color: #f7f7f7; /* Pastel theme button color */
+    color: #333; /* Dark text color for contrast */
+    border: 2px solid  #ff8c94; 
+  }
+  
+  .theme-options button.vintage {
+    background-color: #f5f5dc; /* Vintage theme button color */
+    color: #333; /* Dark text color for contrast */
+    border: 2px solid  #b7410e; 
+  }
+  .theme-options button.modern {
+    background-color: #f0f0f0; /* Vintage theme button color */
+    color: #333; /* Dark text color for contrast */
+    border: 2px solid  #008080; 
+  }
+
+
+  .theme-options button.nature {
+    background-color: #e2f0d9; /* Nature theme button color */
+    color: #3b6b3f; /* Dark text color for contrast */
+    border: 2px solid  #7a9a5a; 
+   
+  }
+  
