@@ -1,74 +1,3 @@
-/* .shopcategory-banner{
-    display: block;
-    margin: 30px auto;
-    width: 80%;
-}
-.shopcategory-indexSort{
-    display: flex;
-    margin: 0px 170px;
-    justify-content: space-between;
-    align-items: center;
-}
-.shopcategory-sort{
-    padding: 10px 20px;
-    border-radius: 40px;
-    border: 1px solid #888;
-}
-.shopcategory-indexSort p span{
-    font-weight: 600;
-}
-.shopcategory-products{
-    width: 90%;
-    max-width: 1360px;
-    justify-content: center;
-    margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    
-}
-.shopcategory-loadmore{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px auto;
-    width: 200px;
-    height: 60px;
-    border-radius: 75px;
-    background: #ededed;
-    color: #787878;
-    font-size: 16px;
-    font-weight: 500;
-}
-@media (max-width:1280px) {
-    .shopcategory-banner{
-        margin: 20px auto;
-        width: 90%;
-    }
-    .shopcategory-indexSort{
-        width: 90%;
-       margin: auto;
-    }
-    .shopcategory-sort{
-        padding: 5px 10px;
-        font-size: 12px;
-    }
-    .shopcategory-indexSort p{
-        font-size: 12px;
-    }
-}
-@media (max-width:800px) {
-    .shopcategory-banner{
-        width: 95%;
-    }
-     .shopcategory-loadmore{
-        margin: 60px auto;
-        width: 150px;
-        height: 40px;
-        font-size: 13px;
-    }
-} */
-
 .shopcategory-banner {
     display: block;
     margin: 30px auto;
@@ -116,7 +45,6 @@
     font-weight: 500;
 }
 
-/* Enhanced styles for search bar */
 .search-container {
     width: 90%;
     max-width: 1360px;
@@ -131,16 +59,16 @@
     padding: 10px;
     border-radius: 25px;
     border: 1px solid #888;
-    background-color: #fff; /* White background for better contrast */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     font-size: 16px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus effect */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .search-bar:focus {
     outline: none;
-    border-color: #007bff; /* Highlight border color on focus */
-    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2); /* Enhanced shadow on focus */
+    border-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2); 
 }
 
 @media (max-width: 1280px) {

@@ -1,16 +1,8 @@
-// redux/slices/themeSlice.js
+export const SET_THEME = "SET_THEME";
 
-  
-  // Actions
- export const SET_THEME = 'SET_THEME';
-  
-  const setTheme = (theme) => ({
-    type: SET_THEME,
-    payload: theme,
-  });
+const setTheme = (theme) => ({
+  type: SET_THEME,
+  payload: theme,
+});
 
-  export default setTheme
-  
-  // Reducer
-
-  
+export default setTheme;

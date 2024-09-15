@@ -8,7 +8,8 @@ a:-webkit-any-link {
     align-items: center;
     box-shadow: 0 1px 3px -2px black;
     padding: 15px 70px;
-    
+    position: relative;
+    background-color: #fff;
 }
 
 .nav-logo {
@@ -51,7 +52,7 @@ a:-webkit-any-link {
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #FF4141;
+    background: #ff4141;
 }
 
 .nav-login-cart {
@@ -99,7 +100,6 @@ a:-webkit-any-link {
     display: none;
 }
 
-/* Main styles */
 .nav-submenu {
     display: none;
     position: absolute;
@@ -123,49 +123,43 @@ a:-webkit-any-link {
     background-color: #f3f3f3;
 }
 
-/* Show submenu on hover */
-.nav-menu > li:hover .nav-submenu {
+.nav-menu>li:hover .nav-submenu {
     display: block;
 }
 
-/* Add these styles to your existing Navbar.css */
 
-/* Sticky header style */
 .header-sticky {
     position: sticky;
     top: 0;
     width: 100%;
-    background: #fff; /* Adjust background color as needed */
+    background: #fff;
     box-shadow: 0 1px 3px -2px black;
-    z-index: 1000; /* Ensure it stays above other content */
+    z-index: 1000;
 }
 
-/* Static header style */
 .header-static {
     position: static;
     width: 100%;
-    background: #fff; /* Adjust background color as needed */
-    box-shadow: none; /* No shadow for static header */
+    background: #fff;
+    box-shadow: none;
 }
 
-
-/* Adjust for mobile view */
-@media(max-width: 750px) {
+@media (max-width: 750px) {
     .nav-menu {
         flex-direction: column;
         align-items: flex-start;
-        display: none; /* Hide menu by default on mobile */
+        display: none;
         position: absolute;
         background-color: white;
         width: 100%;
         top: 60px;
         left: 0;
         box-shadow: none;
-        gap: 15px; /* Reduce gap */
+        gap: 15px;
     }
 
     .nav-menu-visible {
-        display: flex; /* Show menu when visible class is added */
+        display: flex;
     }
 
     .nav-dropdown {
@@ -183,7 +177,7 @@ a:-webkit-any-link {
     }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
     .navbar {
         padding: 15px 15px;
     }

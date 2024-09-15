@@ -24,7 +24,6 @@
     gap: 25px;
     justify-content: center;
 }
-/* ---------- media query------------ */
 
 @media(max-width: 800px){
     .popular h1{
